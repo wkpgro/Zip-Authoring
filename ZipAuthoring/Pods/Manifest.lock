@@ -1,3 +1,61 @@
-PODFILE CHECKSUM: 994dcd27086c0fd8cbcb4a03c9b7d1baea8e8856
+PODS:
+  - AudioKit (4.2.4):
+    - AudioKit/UI (= 4.2.4)
+  - AudioKit/UI (4.2.4)
+  - AWSAuthCore (2.6.17):
+    - AWSCore (= 2.6.17)
+  - AWSCognitoIdentityProvider (2.6.17):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.17)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.17)
+  - AWSDynamoDB (2.6.17):
+    - AWSCore (= 2.6.17)
+  - AWSMobileClient (2.6.17):
+    - AWSAuthCore (= 2.6.17)
+  - AWSUserPoolsSignIn (2.6.17):
+    - AWSAuthCore (= 2.6.17)
+    - AWSCognitoIdentityProvider (= 2.6.17)
+  - JGProgressHUD (2.0.2)
+  - SwiftHash (2.0.1)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - AudioKit
+  - AWSDynamoDB
+  - AWSMobileClient
+  - AWSUserPoolsSignIn
+  - JGProgressHUD
+  - SwiftHash
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AudioKit
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+    - AWSMobileClient
+    - AWSUserPoolsSignIn
+    - JGProgressHUD
+    - SwiftHash
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AudioKit: 90ed0de2bc50ab68306f4b424ae1622fc9149b8e
+  AWSAuthCore: 15a48ce8153e6b7b7df763e8df9d993c7797957e
+  AWSCognitoIdentityProvider: 9f15b1d0073c3585d791877c98e1315c368b4f18
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 82fbb01d73a22cfae77ac2f03f6073a123092452
+  AWSDynamoDB: bbfc2583819099ccc0ba92eb54cb425049d4278b
+  AWSMobileClient: 7b8dd4ef7a7d5c08f258b547d061c3c2018d32d8
+  AWSUserPoolsSignIn: ba2e21e15527ba955194031fd40f02e1490630fe
+  JGProgressHUD: bf75da151936cfd3c9b674afb17e8a5df2e14a7d
+  SwiftHash: c805de5a434eacfa0dac7210745a50c55d7fe33d
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 140e77c6dbb8782722673da63bc260058049c733
 
 COCOAPODS: 1.5.0

@@ -1,10 +1,15 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
 
 target 'ZipAuthoring' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
-  # Pods for ZipAuthoring
-
+  
+  
+  pod 'AWSMobileClient'
+  pod 'AWSDynamoDB'
+  pod 'AWSUserPoolsSignIn'
+  pod 'SwiftyJSON'
+  pod 'SwiftHash'
+  pod 'JGProgressHUD'
+  pod 'AudioKit'
+  
 end

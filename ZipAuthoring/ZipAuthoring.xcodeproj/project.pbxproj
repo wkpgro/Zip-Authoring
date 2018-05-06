@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352F670D209B89F5007FC908 /* RecordCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F670C209B89F5007FC908 /* RecordCellTableViewCell.swift */; };
+		352F670F209B8AFF007FC908 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F670E209B8AFF007FC908 /* RecordModel.swift */; };
+		352F6711209BAE0F007FC908 /* RecordHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F6710209BAE0F007FC908 /* RecordHeader.swift */; };
+		35A59387209D6475003BA2D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A59386209D6475003BA2D1 /* User.swift */; };
 		35F6E3F6209A97770014F86F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3F5209A97770014F86F /* AppDelegate.swift */; };
 		35F6E3F8209A97770014F86F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3F7209A97770014F86F /* ViewController.swift */; };
 		35F6E3FB209A97770014F86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F6E3F9209A97770014F86F /* Main.storyboard */; };
 		35F6E3FD209A97780014F86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F6E3FC209A97780014F86F /* Assets.xcassets */; };
 		35F6E400209A97780014F86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F6E3FE209A97780014F86F /* LaunchScreen.storyboard */; };
+		35F6E416209AC0AA0014F86F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E415209AC0AA0014F86F /* LoginViewController.swift */; };
+		35F6E419209AC1FE0014F86F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E418209AC1FE0014F86F /* ForgotPasswordViewController.swift */; };
+		35F6E41B209AC2100014F86F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E41A209AC2100014F86F /* RegisterViewController.swift */; };
+		35F6E41E209AC22D0014F86F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E41D209AC22D0014F86F /* HomeViewController.swift */; };
+		35F6E420209AC2400014F86F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E41F209AC2400014F86F /* ActivityViewController.swift */; };
+		35F6E422209AC2520014F86F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E421209AC2520014F86F /* UserModel.swift */; };
+		35F6E42A209AC2610014F86F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E424209AC2610014F86F /* Global.swift */; };
+		35F6E42B209AC2610014F86F /* LogUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E426209AC2610014F86F /* LogUtils.swift */; };
+		35F6E42C209AC2610014F86F /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E427209AC2610014F86F /* SharedManager.swift */; };
+		35F6E42D209AC2610014F86F /* TextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E428209AC2610014F86F /* TextUtils.swift */; };
+		35F6E42E209AC2610014F86F /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E429209AC2610014F86F /* UIManager.swift */; };
+		35F6E430209AC36B0014F86F /* UtilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E42F209AC36B0014F86F /* UtilManager.swift */; };
+		35F6E432209AC3810014F86F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E431209AC3810014F86F /* NetworkManager.swift */; };
+		35F6E434209AC8AF0014F86F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 35F6E433209AC8AF0014F86F /* awsconfiguration.json */; };
 		7E6D18C1EA45C1187A475678 /* Pods_ZipAuthoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C36CB1DCA06B4AF7325D34 /* Pods_ZipAuthoring.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B73E55E41690D8D03EFE6F1 /* Pods-ZipAuthoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipAuthoring.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZipAuthoring/Pods-ZipAuthoring.release.xcconfig"; sourceTree = "<group>"; };
+		352F6707209B15F4007FC908 /* ZipAuthoring-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZipAuthoring-Bridging-Header.h"; sourceTree = "<group>"; };
+		352F670C209B89F5007FC908 /* RecordCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCellTableViewCell.swift; sourceTree = "<group>"; };
+		352F670E209B8AFF007FC908 /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		352F6710209BAE0F007FC908 /* RecordHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordHeader.swift; sourceTree = "<group>"; };
+		35A59386209D6475003BA2D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		35F6E3F2209A97770014F86F /* ZipAuthoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipAuthoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F6E3F5209A97770014F86F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35F6E3F7209A97770014F86F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +47,20 @@
 		35F6E3FC209A97780014F86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F6E3FF209A97780014F86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35F6E401209A97780014F86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F6E415209AC0AA0014F86F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		35F6E418209AC1FE0014F86F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		35F6E41A209AC2100014F86F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		35F6E41D209AC22D0014F86F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		35F6E41F209AC2400014F86F /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		35F6E421209AC2520014F86F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		35F6E424209AC2610014F86F /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		35F6E426209AC2610014F86F /* LogUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtils.swift; sourceTree = "<group>"; };
+		35F6E427209AC2610014F86F /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedManager.swift; sourceTree = "<group>"; };
+		35F6E428209AC2610014F86F /* TextUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextUtils.swift; sourceTree = "<group>"; };
+		35F6E429209AC2610014F86F /* UIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		35F6E42F209AC36B0014F86F /* UtilManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilManager.swift; sourceTree = "<group>"; };
+		35F6E431209AC3810014F86F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		35F6E433209AC8AF0014F86F /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		36C36CB1DCA06B4AF7325D34 /* Pods_ZipAuthoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipAuthoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		435D13E1E6CA5991AEED620B /* Pods-ZipAuthoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipAuthoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZipAuthoring/Pods-ZipAuthoring.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		352F670B209B89D4007FC908 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				352F670C209B89F5007FC908 /* RecordCellTableViewCell.swift */,
+				352F6710209BAE0F007FC908 /* RecordHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35A59385209D6461003BA2D1 /* NoSQL */ = {
+			isa = PBXGroup;
+			children = (
+				35A59386209D6475003BA2D1 /* User.swift */,
+			);
+			path = NoSQL;
+			sourceTree = "<group>";
+		};
 		35F6E3E9209A97770014F86F = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +117,78 @@
 			children = (
 				35F6E3F5209A97770014F86F /* AppDelegate.swift */,
 				35F6E3F7209A97770014F86F /* ViewController.swift */,
+				35F6E408209A9BDF0014F86F /* Model */,
+				352F670B209B89D4007FC908 /* View */,
+				35F6E407209A9BD20014F86F /* Controller */,
 				35F6E3F9209A97770014F86F /* Main.storyboard */,
 				35F6E3FC209A97780014F86F /* Assets.xcassets */,
 				35F6E3FE209A97780014F86F /* LaunchScreen.storyboard */,
+				35F6E433209AC8AF0014F86F /* awsconfiguration.json */,
 				35F6E401209A97780014F86F /* Info.plist */,
+				352F6707209B15F4007FC908 /* ZipAuthoring-Bridging-Header.h */,
 			);
 			path = ZipAuthoring;
+			sourceTree = "<group>";
+		};
+		35F6E407209A9BD20014F86F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E415209AC0AA0014F86F /* LoginViewController.swift */,
+				35F6E41C209AC21B0014F86F /* Main */,
+				35F6E417209AC1E80014F86F /* Register */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35F6E408209A9BDF0014F86F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E421209AC2520014F86F /* UserModel.swift */,
+				352F670E209B8AFF007FC908 /* RecordModel.swift */,
+				35F6E423209AC2610014F86F /* Global */,
+				35F6E425209AC2610014F86F /* Managers */,
+				35A59385209D6461003BA2D1 /* NoSQL */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35F6E417209AC1E80014F86F /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E418209AC1FE0014F86F /* ForgotPasswordViewController.swift */,
+				35F6E41A209AC2100014F86F /* RegisterViewController.swift */,
+				35F6E41F209AC2400014F86F /* ActivityViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		35F6E41C209AC21B0014F86F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E41D209AC22D0014F86F /* HomeViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		35F6E423209AC2610014F86F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E424209AC2610014F86F /* Global.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		35F6E425209AC2610014F86F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E426209AC2610014F86F /* LogUtils.swift */,
+				35F6E427209AC2610014F86F /* SharedManager.swift */,
+				35F6E428209AC2610014F86F /* TextUtils.swift */,
+				35F6E429209AC2610014F86F /* UIManager.swift */,
+				35F6E42F209AC36B0014F86F /* UtilManager.swift */,
+				35F6E431209AC3810014F86F /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		547C12120FE43147F37F8E84 /* Pods */ = {
@@ -99,6 +219,7 @@
 				35F6E3EE209A97770014F86F /* Sources */,
 				35F6E3EF209A97770014F86F /* Frameworks */,
 				35F6E3F0209A97770014F86F /* Resources */,
+				9CDD83F59CE702C2D8AA25F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,6 +242,7 @@
 				TargetAttributes = {
 					35F6E3F1209A97770014F86F = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -147,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F6E434209AC8AF0014F86F /* awsconfiguration.json in Resources */,
 				35F6E400209A97780014F86F /* LaunchScreen.storyboard in Resources */,
 				35F6E3FD209A97780014F86F /* Assets.xcassets in Resources */,
 				35F6E3FB209A97770014F86F /* Main.storyboard in Resources */,
@@ -174,6 +297,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9CDD83F59CE702C2D8AA25F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZipAuthoring/Pods-ZipAuthoring-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHash/SwiftHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZipAuthoring/Pods-ZipAuthoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -181,8 +340,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F6E42C209AC2610014F86F /* SharedManager.swift in Sources */,
+				35F6E42B209AC2610014F86F /* LogUtils.swift in Sources */,
+				35F6E419209AC1FE0014F86F /* ForgotPasswordViewController.swift in Sources */,
+				35F6E41B209AC2100014F86F /* RegisterViewController.swift in Sources */,
+				35F6E422209AC2520014F86F /* UserModel.swift in Sources */,
+				35F6E430209AC36B0014F86F /* UtilManager.swift in Sources */,
+				35F6E416209AC0AA0014F86F /* LoginViewController.swift in Sources */,
 				35F6E3F8209A97770014F86F /* ViewController.swift in Sources */,
+				35F6E420209AC2400014F86F /* ActivityViewController.swift in Sources */,
+				35F6E42D209AC2610014F86F /* TextUtils.swift in Sources */,
+				352F670D209B89F5007FC908 /* RecordCellTableViewCell.swift in Sources */,
 				35F6E3F6209A97770014F86F /* AppDelegate.swift in Sources */,
+				35F6E42E209AC2610014F86F /* UIManager.swift in Sources */,
+				35F6E432209AC3810014F86F /* NetworkManager.swift in Sources */,
+				35F6E41E209AC22D0014F86F /* HomeViewController.swift in Sources */,
+				35F6E42A209AC2610014F86F /* Global.swift in Sources */,
+				352F670F209B8AFF007FC908 /* RecordModel.swift in Sources */,
+				352F6711209BAE0F007FC908 /* RecordHeader.swift in Sources */,
+				35A59387209D6475003BA2D1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,11 +503,19 @@
 			baseConfigurationReference = 435D13E1E6CA5991AEED620B /* Pods-ZipAuthoring.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YJ5Q8H5F6;
 				INFOPLIST_FILE = ZipAuthoring/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zip.ZipAuthoring;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zip.zipauthroing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZipAuthoring/ZipAuthoring-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,11 +526,18 @@
 			baseConfigurationReference = 0B73E55E41690D8D03EFE6F1 /* Pods-ZipAuthoring.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YJ5Q8H5F6;
 				INFOPLIST_FILE = ZipAuthoring/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zip.ZipAuthoring;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zip.zipauthroing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZipAuthoring/ZipAuthoring-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
